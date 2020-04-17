@@ -1,0 +1,455 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://scripts/scores.gd" type="Script" id=1]
+[ext_resource path="res://fonts/dos.fnt" type="BitmapFont" id=2]
+[ext_resource path="res://sprites/textButtonUP.png" type="Texture" id=3]
+[ext_resource path="res://sprites/textButtonDOWN.png" type="Texture" id=4]
+
+[node name="scores" type="CanvasLayer"]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+script/script = ExtResource( 1 )
+
+[node name="Label_title" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.9, 0.9 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 238.0
+margin/top = 11.0
+margin/right = -302.0
+margin/bottom = 101.0
+custom_fonts/font = ExtResource( 2 )
+text = "Highscores"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_size" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.7, 0.7 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 292.0
+margin/top = 107.0
+margin/right = 76.0
+margin/bottom = 197.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0.882813, 1, 1 )
+text = "Size"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.7, 0.7 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 85.0
+margin/top = 107.0
+margin/right = -131.0
+margin/bottom = 197.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0.882813, 1, 1 )
+text = "Movs"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.7, 0.7 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -118.0
+margin/top = 106.0
+margin/right = -334.0
+margin/bottom = 196.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0.882813, 1, 1 )
+text = "Time"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_2x2" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 287.0
+margin/top = 176.0
+margin/right = 17.0
+margin/bottom = 266.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.921875, 1, 0, 1 )
+text = "2 x 2"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_2x2_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 83.0
+margin/top = 172.0
+margin/right = -187.0
+margin/bottom = 262.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.328125, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_2x2_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -124.0
+margin/top = 170.0
+margin/right = -394.0
+margin/bottom = 260.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.265625, 1, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_3x3" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 288.0
+margin/top = 223.0
+margin/right = 18.0
+margin/bottom = 313.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.921875, 1, 0, 1 )
+text = "3 x 3"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_3x3_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 84.0
+margin/top = 219.0
+margin/right = -186.0
+margin/bottom = 309.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.328125, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_3x3_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -123.0
+margin/top = 217.0
+margin/right = -393.0
+margin/bottom = 307.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.265625, 1, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_5x4" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 286.0
+margin/top = 270.0
+margin/right = 16.0
+margin/bottom = 360.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.921875, 1, 0, 1 )
+text = "5 x 4"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_5x4_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 82.0
+margin/top = 266.0
+margin/right = -188.0
+margin/bottom = 356.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.328125, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_5x4_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -125.0
+margin/top = 264.0
+margin/right = -395.0
+margin/bottom = 354.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.265625, 1, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_6x5" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 285.0
+margin/top = 316.0
+margin/right = 15.0
+margin/bottom = 406.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.921875, 1, 0, 1 )
+text = "6 x 5"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_6x5_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 81.0
+margin/top = 312.0
+margin/right = -189.0
+margin/bottom = 402.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.328125, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_6x5_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -126.0
+margin/top = 310.0
+margin/right = -396.0
+margin/bottom = 400.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.265625, 1, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_7x6" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 287.0
+margin/top = 361.0
+margin/right = 17.0
+margin/bottom = 451.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.921875, 1, 0, 1 )
+text = "7 x 6"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_7x6_movs" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 83.0
+margin/top = 357.0
+margin/right = -187.0
+margin/bottom = 447.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.328125, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label_7x6_time" type="Label" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+rect/scale = Vector2( 0.45, 0.45 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -124.0
+margin/top = 355.0
+margin/right = -394.0
+margin/bottom = 445.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.265625, 1, 0, 1 )
+text = "------"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="TextureButton_ok" type="TextureButton" parent="."]
+
+anchor/left = 3
+anchor/right = 3
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 113.0
+margin/top = 403.0
+margin/right = -79.0
+margin/bottom = 467.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+textures/normal = ExtResource( 3 )
+textures/pressed = ExtResource( 4 )
+params/resize_mode = 0
+params/scale = Vector2( 0.75, 0.5 )
+params/stretch_mode = 0
+
+[node name="Label_ok" type="Label" parent="TextureButton_ok"]
+
+rect/scale = Vector2( 0.5, 0.5 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 70.0
+margin/top = 10.0
+margin/right = 178.0
+margin/bottom = 100.0
+custom_fonts/font = ExtResource( 2 )
+text = "Ok"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[connection signal="pressed" from="TextureButton_ok" to="." method="_on_TextureButton_ok_pressed"]
+
+
